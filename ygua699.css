@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+
+h1 {
+    margin:auto;
+    padding:200px 0 200px 0;
+    font-size:xx-large;
+    background-color: lightblue;
+}
+
+h2 {
+    margin: 100px 0 100px 0;
+    color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+  
+li {
+    float: right;
+    cursor: pointer;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.2s;
+    
+}
+
+li:hover {
+    background-color: darkorchid;
+}
+
+#staff {
+    display: none;
+    text-align: center;
+}
+
+#info {
+    padding-bottom: 50px;
+}
+
+#svg {
+    width: 30%;
+    background-color: lightblue;
+}
+
+#home p {
+    margin:100px 100px 100px 100px;
+}
+
+#math {
+    margin:0 200px 100px 200px;
+    padding:100px 0 100px 0;
+}
+
+#tButton {
+    padding: 10px 5% 10px 5%;
+    margin: 40px 20px;
+    border-radius: 10px;
+    font-size: large;
+    border: 1px solid darkblue;
+    transition: .6s;
+    background-color: darkblue;
+    color:white;
+}
+
+#tButton:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    
+}
+
+
+#courses div  {
+    text-align: left;
+}
+
+#tb{
+    background-color: lightgray;
+    border: 2px black solid;
+    padding:20px 20px 20px 20px ;
+}
+
